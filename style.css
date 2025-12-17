@@ -55,11 +55,11 @@ body {
 .button-1 {
   background-color: var(--green);
   color: #fff;
-  width: 20vh;
-  height: 5vh;
+  width: 25vh;
+  height: 8vh;
   border: .25vh solid #000;
   border-radius: 10px;
-  font-size: 2vh;
+  font-size: 2.5vh;
   padding: 1vh;
   cursor: pointer;
 }
@@ -69,24 +69,14 @@ body {
 .hero-main {
   width: 100%;
   display: flex;
-  /* justify-content: center; */
   align-content: center;
-  /* margin: 5vh 0; */
-  /* align-self: center; */
-  /* align-items: center; */
-  /* padding-top: 5vh;
-  margin-left: 5vh; */
+  justify-content: center;
+  /* margin-left: 10vh; */
 }
 
 .hero-main div {
   width: 33%;
-  /* padding: 3vh; */
-  /* height: 40vh; */
-  /* display: flexbox;
-  justify-items: space-between; */
   align-content: center;
-  /* align-items: center; */
-  /* text-align: center; */
 }
 
 .hero-1 {
@@ -94,18 +84,11 @@ body {
   border: .25vh solid #000;
   border-radius: 5px;
   padding-left: 1vh;
-  /* width: 25%; */
-  max-width: 35vh;
-  /* padding-bottom: 1vh; */
+  max-width: 30vh;
 }
 
 
 ul {
-  /* padding: 3vh 1vh 0 1vh;
-  min-width: 25vh; */
-  /* height: 40vh; */
-  /* padding-bottom: 1vh; */
-  /* position: relative; */
   padding-top: 5vh;
   border: .25vh solid #000;
   border-radius: 5px;
@@ -118,7 +101,6 @@ ul {
 
 .nav-links li {
   height: 10vh;
-  /* margin-bottom: 2vh; */
 }
 
 a {
@@ -128,32 +110,41 @@ a {
   font-size: 1.5vw;
 }
 
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
 .hero-2 {
   text-align: center;
   margin-left: 15vh;
+  margin-top: 10vh;
+  /* height: auto; */
 }
 
 .hero-2 span {
-  /* padding-bottom: 3vh; */
+  margin-top: 0vh;
 }
 
 .hero-text-1 {
-  font-size: 3vw;
-  /* padding-bottom: 5vh; */
+  font-size: 4vw;
+  margin-bottom: 3vh;
+  /* padding-bottom: 10vh; */
 }
 .hero-text-2 {
-  font-size: 2.25vw;
+  font-size: 3vw;
 }
 .hero-text-3 {
   font-size: 2.5vw;
+  
+}
+
+.hero-button {
+  margin-top: 3vh;
 }
 
 .hero-3 img {
   display: flex;
   justify-self: center;
-  /* text-align: center; */
-  /* display: flex;
-  align-self: center; */
 }
 
 .hero-img {
@@ -165,10 +156,17 @@ a {
 
 .quote {
   height: 30vh;
+  width: 90%;
+  padding-top: 30vh;
+  display: flex;
+  justify-self: center;
 }
 
 .quote p {
-  display: flex;
-  align-self: center;
-  justify-content: center;
+  border: .25vh solid rgb(48 69 41 / 40%);
+  border-radius: 10px;
+  height: 15vh;
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 3vh;
 }
