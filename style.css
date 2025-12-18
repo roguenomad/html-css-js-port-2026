@@ -147,7 +147,7 @@ a {
 
 .hero-img {
   width: 75%;
-  border: .25vh solid var(--green);
+  border: .25vh solid var(--secondary-one-green);
   border-radius: 50%;
 }
 
@@ -200,10 +200,39 @@ a {
   justify-content: space-around;
 }
 
-.card-img {
+.card-backgr {
+  /* background-color: #000;
+  border: .25vh solid #000;
+  border-radius: 15px;
+  height: 40vh;
+  position: relative; */
+  /* transform: translate(10px, -30px) */
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
   margin-top: 5vh;
+  border: .25vh solid var(--secondary-one-green);
+}
+.card-img {
+  /* margin-top: 5vh; */
   height: 35vh;
+  width: 22vw;
   /* max-width: 20vw; */
+  border-radius: 15px 15px 0 0;
   background-color: #DEE0E9;
+  border-bottom: .25vh solid var(--secondary-one-green);
+}
+
+.card-text {
+  height: 10vh;
+  /* background-color: #fff; */
+}
+
+.card-text p {
+  font-size: 1.5vw;
+  text-align: center;
+  margin-top: 4vh;
 }
 
