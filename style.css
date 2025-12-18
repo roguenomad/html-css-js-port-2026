@@ -29,7 +29,8 @@
 
 :root {
   --primary-color: #FDF8ED;
-  --green: #304529;
+  --secondary-one-green: #304529;
+  --secondary-two-orange: #DE8B61;
 }
 
 * {
@@ -42,7 +43,7 @@ body {
   font-family: "Playfair Display", serif;
   background-color: var(--primary-color);
   /* margin: 1vh; */
-  margin: 5vh 1vh;
+  padding: 5vh 1vh;
   /* padding-top: 5vh;
   margin-left: 5vh; */
 
@@ -53,7 +54,7 @@ body {
 }
 
 .button-1 {
-  background-color: var(--green);
+  background-color: var(--secondary-one-green);
   color: #fff;
   width: 25vh;
   height: 8vh;
@@ -64,14 +65,13 @@ body {
   cursor: pointer;
 }
 
-/***NAV***/
+/***Hero***/
 
 .hero-main {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-content: center;
   justify-content: center;
-  /* margin-left: 10vh; */
 }
 
 .hero-main div {
@@ -83,7 +83,7 @@ body {
   background-color: #DE8B61;
   border: .25vh solid #000;
   border-radius: 5px;
-  padding-left: 1vh;
+  /* padding-left: 1vh; */
   max-width: 30vh;
 }
 
@@ -118,7 +118,6 @@ a {
   text-align: center;
   margin-left: 15vh;
   margin-top: 10vh;
-  /* height: auto; */
 }
 
 .hero-2 span {
@@ -128,7 +127,6 @@ a {
 .hero-text-1 {
   font-size: 4vw;
   margin-bottom: 3vh;
-  /* padding-bottom: 10vh; */
 }
 .hero-text-2 {
   font-size: 3vw;
@@ -156,17 +154,56 @@ a {
 
 .quote {
   height: 30vh;
-  width: 90%;
-  padding-top: 30vh;
+  /* width: 90%; */
+  padding-top: 20vh;
+  padding-left: 30vw;
   display: flex;
-  justify-self: center;
+  /* justify-self: center; */
+  /* align-self: center; */
 }
 
 .quote p {
   border: .25vh solid rgb(48 69 41 / 40%);
   border-radius: 10px;
-  height: 15vh;
+  height: 8vh;
   font-size: 2vw;
   text-align: center;
-  padding-top: 3vh;
+  padding: 2vw;
+  /* display: flex;
+  align-self: center; */
 }
+
+
+/***Cards***/
+
+.comp-img {
+  width: 20vw;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin-right: 20vw;
+}
+
+.services h2 {
+  color: var(--secondary-one-green);
+  font-size: 4vw;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+  /* position: absolute; */
+  margin: 5vh 0vh;
+}
+
+.cards-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-img {
+  margin-top: 5vh;
+  height: 35vh;
+  /* max-width: 20vw; */
+  background-color: #DEE0E9;
+}
+
