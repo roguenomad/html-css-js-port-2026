@@ -1,0 +1,15 @@
+@media screen and (max-width: 680px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }    
+}
+
+@media screen and (max-width: 600){
+    .hero-main {
+        display: flexbox;
+    }
+    
+}
